@@ -21,7 +21,7 @@ export default hopeTheme({
   logo: "/wz.jpg",
 
   //仓库链接
-  repo: "https://github.com/miracle-zheng/my_blog",
+  repo: "https://github.com/miracle-zheng/blog",
 
   //文档目录
   docsDir: "src",
