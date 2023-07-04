@@ -11,8 +11,9 @@ export default sidebar({
       prefix: "1.basic/",
       children: [
         "1.datatype.md",
-        "2.oop.md",
-        "3.collection.md"
+        "2.keyword.md",
+        "3.oop.md",
+        "4.collection.md"
       ],
     },
     {
