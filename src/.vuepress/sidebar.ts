@@ -53,35 +53,7 @@ export default sidebar({
       text: "Kubernetes概述",
       link: "k8s-overview.md"
     },
-    {
-      text: "一、架构",
-      prefix: "1.architecture/",
-      children: [
-        "api-server.md"
-      ],
-    },
-    {
-      text: "二、资源",
-      prefix: "2.resources/",
-      children: [
-        {
-          text: "2.1 工作负载",
-          prefix: "1.workloads/",
-          children: [
-            "deployment.md",
-            "pod.md",
-            "replicaset.md"
-          ],
-        },
-        {
-          text: "2.2 服务、网络",
-          prefix: "2.services/",
-          children: [
-            "service.md",
-          ],
-        }
-      ],
-    },
+
   ],
 
 
