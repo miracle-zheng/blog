@@ -110,4 +110,24 @@ export default sidebar({
   ],
 
 
+  "/redis/": [
+    {
+      text: "概述",
+      link: "redis-overview.md"
+    },
+    {
+      text: "1. Redis 基础",
+      link: "1.basic.md"
+    },
+    {
+      text: "2. Redis 缓存",
+      link: "2.cache.md"
+    },
+    {
+      text: "3. Redis 分布式锁",
+      link: "3.lock.md"
+    },
+  
+  ],
+
 });
