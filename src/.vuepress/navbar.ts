@@ -19,20 +19,17 @@ export default navbar([
     link: "/k8s/k8s-overview.md"
   },
 
-  { text: "中间件",
-    icon: "zhongjianjian",
-    prefix: "/middleware/",
-    children: [
-      {
-        text: "MySQL",
-        icon: "mysql",
-        link: "mysql/mysql-overview.md"
-      },
-      {
-        text: "Redis",
-        icon: "redis",
-        link: "redis/redis-overview.md"
-      }
-    ]
+  {         
+    text: "MySQL",
+    icon: "mysql",
+    link: "/mysql/mysql-overview.md"
   },
+
+  {         
+    text: "Redis",
+    icon: "redis",
+    link: "/redis/redis-overview.md"
+  }, 
+
+
 ]);

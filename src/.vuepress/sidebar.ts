@@ -82,5 +82,32 @@ export default sidebar({
         }
       ],
     },
-  ]
+  ],
+
+
+
+
+
+
+  "/mysql/": [
+    {
+      text: "概述",
+      link: "mysql-overview.md"
+    },
+    {
+      text: "1. MySQL 基础",
+      link: "1.basic.md"
+    },
+    {
+      text: "2. MySQL 索引",
+      link: "2.index.md"
+    },
+    {
+      text: "3. MySQL 事务",
+      link: "3.transaction.md"
+    },
+  
+  ],
+
+
 });
