@@ -32,7 +32,8 @@ export default sidebar({
       children: [
         "1.JMM.md",
         "2.GC.md",
-        "3.classLoader.md"
+        "3.classLoader.md",
+        "4.tuning.md"
       ],
     },
     {
@@ -98,6 +99,34 @@ export default sidebar({
     {
       text: "3. Redis 分布式锁",
       link: "3.lock.md"
+    },
+  
+  ],
+
+
+
+
+
+  "/algorithm/": [
+    {
+      text: "LeetCode",
+      prefix: "leetcode/",
+      children: [
+        "leetcode_1.md",
+        "leetcode_21.md",
+        "leetcode_88.md",
+        "leetcode_94.md",
+        "leetcode_101.md",
+        "leetcode_104.md",
+        "leetcode_141.md",
+        "leetcode_144.md",
+        "leetcode_145.md",
+        "leetcode_160.md",
+        "leetcode_206.md",
+        "leetcode_283.md",
+        "leetcode_876.md",
+
+      ],
     },
   
   ],
