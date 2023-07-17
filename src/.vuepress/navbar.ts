@@ -31,5 +31,11 @@ export default navbar([
     link: "/redis/redis-overview.md"
   }, 
 
+  {         
+    text: "算法",
+    icon: "zhongjianjian",
+    link: "/algorithm/algorithm-overview.md"
+  }, 
+
 
 ]);
